@@ -1,0 +1,42 @@
+
+
+
+.container {
+    margin-top: 40px;
+    display: flex;
+}
+
+.link {
+text-decoration: none;
+margin-right: 40px;
+color : white;
+font-family: "Reforma";
+font-size: 24px;
+}
+
+
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 20px;
+    
+    margin-left: auto;
+}
+
+
+
+.line {
+    display: block;
+    background-color: #DB3138;
+    width:  40px;
+    height: 3px;
+}
+
+
+.line:nth-child(2n-1) {
+    margin-left: auto;
+}
+

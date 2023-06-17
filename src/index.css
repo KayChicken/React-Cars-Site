@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Reforma";
+  src: url("../public/static/fonts/ReformaGroteskMedium.ttf") format("truetype");
+}
+
+
+
+body {
+  background-color: #1E1E1E;
+  margin: 0;
+  font-family: "Reforma";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
