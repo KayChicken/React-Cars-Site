@@ -1,9 +1,12 @@
 .container {
-    margin-top: 75px;
+    
+    
     position: absolute;
-    width: 100%;
     left: 0;
+    bottom: 0;
+    width: 100%;
     display: flex;
+    
     
 }
 

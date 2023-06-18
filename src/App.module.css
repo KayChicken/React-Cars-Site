@@ -1,23 +1,15 @@
 .container {
-
+    
     max-width: 1112px;
     margin: 0 auto;
+    height: 100%;
 }
 
 
-.container::before {
 
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('../public/static/img/background.png');
-    background-size: cover;
-    height: 100vh;
-    z-index: -1;
-   
-   
+
+
+.header { 
+    height: 90vh;
     
 }

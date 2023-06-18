@@ -18,6 +18,7 @@ const LadderCard: React.FC<ILadderProps> = ({ title, description }) => {
                     <div className={styles.description}>{desc}</div>
                 ))}
             </div>
+            
         </div>
     );
 }
