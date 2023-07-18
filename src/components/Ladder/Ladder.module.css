@@ -47,3 +47,12 @@
 
 
 
+@media (max-width : 800px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px
+    }
+}

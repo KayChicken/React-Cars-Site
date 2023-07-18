@@ -1,0 +1,196 @@
+.wrapper {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1560px;
+    width: 100%;
+
+
+
+
+
+
+
+
+    .carousel {
+
+        max-width: 1296px;
+        display: flex;
+        column-gap: 20px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+
+
+
+
+        .img-container {
+            
+            flex: 1 0 calc((100% - 40px) / 3);
+            
+
+
+            .img-desc {
+                
+                color : #ffffff;
+                transform: translateZ(1px);
+                font-size: 18px;
+                text-align: center;
+                margin: -50px auto auto;
+                background-color: #DB3138;
+                width: calc(100% - 50px);
+                height: 70px;
+
+                .img__description {
+                    max-width: 288px;
+                    margin: auto auto;
+                    transform: translateY(35%);
+                    
+                    
+                }
+
+              
+            }
+
+
+            
+
+
+
+
+
+
+            img {
+                display: block;
+                user-select: none;
+                width: 100%;
+                
+            }
+
+        }
+
+        .img-container:first-child {
+            margin-left: 0;
+        }
+
+
+
+
+    }
+
+    .carousel::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .arrow {
+        cursor: pointer;
+        position: absolute;
+        max-width: 70px;
+        height: 70px;
+        top: 50%;
+        transform: translateY(-50%);
+
+
+
+
+    }
+
+
+    .left-arrow {
+        left: 0;
+    }
+
+
+    .right-arrow {
+        right: 0;
+    }
+}
+
+
+
+
+@media (max-width : 800px) {
+
+
+    .wrapper {
+
+        .arrow {
+            max-width: 50px;
+            height: 50px;
+        }
+    }
+
+}
+
+
+@media (max-width : 650px) {
+
+    .wrapper {
+
+        .arrow {
+            max-width: 40px;
+            height: 40px;
+        }
+    }
+
+}
+
+
+
+@media (max-width : 600px) {
+
+    .wrapper {
+
+
+
+        .carousel {
+
+
+            .img-container {
+
+                flex: 1 0 calc((100% - 20px) / 2);
+
+
+            }
+        }
+    }
+}
+
+
+@media (max-width : 400px) {
+    .wrapper {
+
+
+
+        .carousel {
+
+
+            .img-container {
+
+                flex: 1 0 calc((100%) / 1);
+
+
+            }
+        }
+    }
+}
+
+
+@media (max-width : 900px ) {
+    .img__description {
+        max-width: 288px;
+        margin: auto auto;
+        transform: translateY(35%);
+        font-size: 16px;
+    }
+        
+}
+
+@media (max-width : 770px ) {
+    .img__description {
+        font-size: 15px;
+        
+    }
+        
+}

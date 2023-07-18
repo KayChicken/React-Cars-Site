@@ -1,0 +1,46 @@
+.decorationContainer {
+
+    /* display: flex;
+    max-width: 120px;
+    margin: auto;
+    height: 30px; */
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    height: 10px;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+
+
+
+
+.square {
+    /* position: relative;
+    transform: rotate(-45deg); */
+
+    width: 10px;
+    transform: rotateZ(45deg);
+    height: 10px;
+    background-color: #DB3138;
+
+
+}
+
+
+@media (max-width : 550px) {
+    .decorationContainer{
+        height : 8px;
+
+        .square {
+            width: 8px;
+            height: 8px;
+        }
+    }
+}
+

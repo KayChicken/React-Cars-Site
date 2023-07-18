@@ -1,0 +1,70 @@
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+
+
+
+
+.advantages__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1296px;
+    margin-top: 180px;
+    column-gap: 30px;
+}
+
+
+.advantages {
+    position: relative;
+    max-width: 526px;
+    height: 100%;
+  
+    
+    
+   
+}
+
+
+.icon {
+    max-width: 70px;
+    max-height: 70px;
+    height: 100%;
+
+}
+
+
+@media (max-width : 750px) {
+    .advantages__container {
+        margin-top: 100px;
+    }
+
+
+    .icon {
+        width: 65px;
+        height: 50px;
+    }
+    
+}
+
+
+@media (max-width : 600px) {
+    .advantages__container {
+        margin-top: 70px;
+        flex-direction: column;
+        
+    
+    
+    }
+
+    .advantages {
+        margin-right: 0px;
+    }
+}
+
+
+

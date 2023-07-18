@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Achievement.module.css'
+import styles from './AchievementCard.module.css'
 
 interface IAchievementCardProps {
     title : string
